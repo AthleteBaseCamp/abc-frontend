@@ -22,6 +22,7 @@ export default {
         })
         .catch((error) => {
           console.error(error);
+          this.msg = 'flask server did not connect'
         }) 
     },
   },

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Ping from '../components/Ping.vue'
+import Home from '../components/Home.vue'
 
 
 const router = createRouter({
@@ -9,6 +10,11 @@ const router = createRouter({
       path: '/ping',
       name: 'ping',
       component: Ping
+    },
+    {
+      path: '/',
+      name:'home',
+      component: Home
     }
   ]
 })
